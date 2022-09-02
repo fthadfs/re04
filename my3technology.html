@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>技术学习&实践</title>
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        background-color: hsl(0, 0%, 100%);
+      }
+      * {
+        border: 1px solid black;
+      }
+
+      .column {
+        flex-direction: column;
+      }
+      .flex {
+        display: flex;
+      }
+      .flex1 {
+        flex: 1;
+      }
+      .flex2 {
+        flex: 2;
+      }
+      .centerself {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+      } 
+      .end {
+        align-self: flex-end;
+      }
+      .color {
+        background-color: rgb(238, 252, 255);
+      }
+      .zhong {
+        align-self: center;
+      }
+      .word{
+        font-family: 'Courier New', Courier, monospace ;  
+        font-size:12px;
+        font-weight: bolder;
+      }
+      /*去掉滚动条*/
+      .neiRong::-webkit-scrollbar {
+          display: none;
+        }
+
+      @media (max-width: 600px) {
+        .nobox {
+          display: none;
+        }
+        
+      }
+    </style>
+  </head>
+  <body class="column flex neiRong">
+    <!--上栏-->
+    <div
+      style="background-color: #f1f1f1; text-align: center; padding: 40px"
+      class="flex1"
+    >
+      <img
+        src="https://s1.328888.xyz/2022/08/27/GcYBg.jpg"
+        width="80px"
+        height="80px"
+      />
+    </div>
+    <!--内容-->
+    <div class="flex" > 
+      <!--左空盒子-->
+      <div style="height: 260px; width: 200px" class="flex1 nobox"></div>
+      
+      <!--内容栏-->
+      <div
+        style="max-width: 700px; margin: 15px; overflow: auto"
+        class="flex flex2 column color "
+      >
+        <h1 style="text-align: center">技术学习之路</h1>
+        <h4>
+          <p>
+            大一的时候接触了很多以前从未接触过的东西，像c语言、单片机、Ps、Pr、solidworks、python
+          </p>
+          <p>都挺有意思的，但需要坚持下去才会有收获。</p>
+          <p>
+            最直观的感受是，刚开始很多人一起学，一起走，渐渐的，人越来越少，到最后，就剩孤零零的几个了
+          </p>
+          <p>
+            对了，寒假的时候还参加了冬奥云支教志愿者活动，也是开拓了我的视野
+          </p>
+        </h4>
+        <h3>以下是正文：</h3>
+        <div>
+          <p>高中毕业的暑假在b站上自学了一点C语言和solidworks</p>
+          <p>
+            因为疫情，大一刚入学就被隔离了，科协有画月饼的活动，就在隔离宿舍画的月饼模型。印象很深刻，中秋的时候，自己一个人在隔离宿舍里，新舍友们给我打视频通话。好在中秋第二天就解除隔离了。
+          </p>
+          <p style="text-align: center">
+            <img
+              src="https://s1.328888.xyz/2022/08/29/CkgcF.jpg"
+              width="180px"
+              height="180px"
+            />
+          </p>
+          <p>加入机械院科协以后，每周六会有SW教学例会，我竟然从没缺席过，每次有画不明白的地方，都会留下了练到教学楼关门。或是完成每周的作业而留下了，画不完拿回宿舍接着画，画到熄灯为止。</p>
+          <p>有不懂的就问学长，学长都会耐心回答。真的非常感谢学长学姐给我的帮助。</p>
+          <p>以前的我是胆小内向的，不太愿意去和别人沟通。但来到大学以后，以一种“豁出去的心态”，跨出自己的舒适区，逼自己去问别人问题，以至于每一次问问题都需要鼓起勇气。好在现在这对我来说是件自然的事情了，也不会在问问题之前过多地担心他人的想法。</p>
+          <p>同时，我也注意到和他人沟通的过程中礼貌的重要性。<br>什么？你觉得这件事不值一提？</br>但是我身边依然有很多人做不到如此微不足道的事。</p>
+          <br><div class="word">这是刚大一的时候做的一些关绘图技巧的笔记:</div>
+          <p style="text-align: center">
+            <img
+              src="https://s1.328888.xyz/2022/08/29/CkHcP.jpg"
+              width="250px"
+              height="180px"
+            />
+          </p>
+          寒假在家我也继续练习。但同时又要做蓝牙小车，并且后期要补C语言的功课，我无法同时兼顾两门技术，最终选择继续学习C语言。
+          <br>
+          <br>
+          <div class="word">这是寒假在家练的图：</div>
+          <div style="text-align: center">
+            <img
+              src="https://s1.328888.xyz/2022/09/01/klc2U.jpg"
+              width="550px"
+              height="180px"
+            />
+          </div>
+            <p>说到这，又让我想到了这个壳体。从草图上看就是一坨密密麻麻的数据，令人崩溃。练了好多遍才能理解这个壳体的结构和绘制顺序。</p>
+            <div class="word">下图，壳体：</div>
+            <br>
+            <p style="text-align: center">
+            <img
+              src="https://s1.328888.xyz/2022/09/01/klorB.jpg"
+              width="250px"
+              height="250px"
+            />
+          </p>
+
+          <p>
+            在机械院科协策宣部绘制海报，让我感受到团队合作过程中协调配合的重要性。<br />猜猜我负责哪部分？
+          </p>
+
+          <p style="text-align: center">
+            <img
+              src="https://s1.328888.xyz/2022/08/29/C1kPd.jpg"
+              width="180px"
+              height="240px"
+            />
+          </p>
+          <br />
+          <p>慧鱼项目组招新的时候，我没有考虑自己是否时间充裕，就去了。以至于，每个星期的周末，不是在做项目开例会，就是在去干这些事情的路上。很累，还要兼顾自习，但我也学到了很多很多。</p>
+          <p>
+            在慧鱼项目组和同届的小伙伴一起做的项目，我负责电控部分（原谅我这糟糕的排线技术）。
+          </p>
+          <p style="text-align: center">
+            <img
+              src="https://s1.328888.xyz/2022/08/29/C1KoR.jpg"
+              width="240px"
+              height="200px"
+            />
+          </p>
+          <p>当时从没接触过电控，我像无头苍蝇似的，觉得自己根本做不到这种东西。于是请教了学长，上b站找相关视频自学，现学现做。</p>
+          
+          <div class="word">模块化编程会直观一些，我这代码是定死运动轨迹的，比较粗糙。</div>
+          <p style="text-align: center">
+            <img
+              src="https://s1.328888.xyz/2022/09/01/klMdX.jpg"
+              width="310px"
+              height="210px"
+            />
+          </p>
+
+          <div class="word">这是机器人后面的抓取爪子:</div>
+          <p style="text-align: center">
+            <img
+              src="https://s1.328888.xyz/2022/08/29/C1ffK.jpg"
+              width="200px"
+              height="290px"
+            />
+          </p>
+
+          <p>
+            这个项目是海洋垃圾收集机器人，不过最致命的是，如果不添加其他材料，这个机器人无法浮在水面上
+            （X﹏X）
+          </p>
+          <p>
+            并且，因为慧鱼器材本身没有防水的装置，当时小伙伴决定做这个的时候，没有考虑到这个问题。
+          </p>
+          <p>后来疫情，下半年无法返校，这个项目就止步于此了。</p>
+          <br />
+          <div class="word">这个是寒假参加的云支教志愿活动用Pr剪的视频:</div>
+          <p style="text-align: center">
+            <img
+              src="https://s1.328888.xyz/2022/08/29/C77zS.png"
+              width="380px"
+              height="250px"
+            />
+          </p>
+          <br />
+          <b>寒假在家做小车的遭遇</b>
+          <ul>
+            <li>
+              寒假蓝牙小车，但是前几个蓝牙老是出问题，无法连接上手机，后来发现是质量问题，我裂开了。
+            </li>
+            <li>也因为电路连接等等问题，烧坏了几个C8T6（败家啊）</li>
+            <li>中间也出过乌龙，买了不对的芯片，用不了（造孽啊）</li>
+          </ul>
+          <p style="text-align: center">
+            <img
+              src="https://s1.328888.xyz/2022/09/01/kmUGS.jpg"
+              width="200px"
+              height="290px"
+            />
+          </p>
+
+          <p>这个过程意外太多了，不停挑战我的内心极限。</p>
+
+          <p>到后来，原本要参加一个小比赛，结果比赛前芯片给烧了！</p>
+          <p>
+            当时做了将近一个月，仍然没有做出来，学长们也因为自身的比赛没法回答我的问题。
+          </p>
+          <p>
+            到网页上搜索各种解决方法，但很多内容我看不懂，或者说，我无法将其应用到自己的小车上。
+          </p>
+          <p>
+            到最后，终于把正确的电路摸索出来了，却发现，我自己写的代码存在问题。
+          </p>
+          
+          <p>我的车，可以通过别人的代码运行。</p>
+          <p>我坚持不下去了，抱歉，那时已经崩溃到哭出来了。</p>
+          <p>
+            我回顾我的经历，发现了一个漏洞——当时因为跟不上课程进度，我的C语言，只学到了循环。
+          </p>
+          <p>要知道，C语言是这一切的基础啊。</p>
+          <p><b>于是我重拾C语言。</b></p>
+          <p style="text-align: center">
+            <img
+              src="https://s1.328888.xyz/2022/08/29/CQbq0.jpg"
+              width="380px"
+            />
+          </p>
+          <div class="word">一个l298n模块就够用了：</div>
+          <p style="text-align: center">
+            <img
+              src="https://s1.328888.xyz/2022/08/29/CQaQF.jpg"
+              width="360px"
+              height="400px"
+            />
+          </p>
+          <br>
+          <div class="word">小车最终的线路（比较乱）：</div>
+          <p style="text-align: center">
+            <img
+              src="https://s1.328888.xyz/2022/09/01/kmqC6.jpg"
+              width="280px"
+              height="240px"
+            />
+          </p>
+          <p>因为小车需要焊电路，所以顺便练习了焊电路板，还焊了一些奇怪的东西。</p>
+          <div class="word">放一张不辣眼睛的练习：</div>
+          <p style="text-align: center">
+            <img
+              src="https://s1.328888.xyz/2022/09/01/kDcNR.jpg"
+              width="340px"
+            />
+          </p>
+          <div class="word">一些奇怪的东西（我称之为，恶魔猪）：</div>
+          <p style="text-align: center">
+            <img
+              src="https://s1.328888.xyz/2022/09/01/kFCdJ.jpg"
+              width="300px"
+            />
+          </p>
+          <br>
+          <p>
+            22年春，疫情，不得不在家线上学习，上python课程时,我参加了python海龟库绘图小比赛。我比较菜，所以代码不是很复杂。
+          </p>
+          <p>
+            而且画着画着，就把注意力转移到画面美感上了，忘了技术这回事 。Orz
+          </p>
+          <div class="word">拙作两幅，献丑了:</div>
+          <p style="text-align: center">
+            <img
+              src="https://s1.328888.xyz/2022/08/29/CQn3h.png"
+              width="400px"
+            />
+          </p>
+          <p style="text-align: center">
+            <img
+              src="https://s1.328888.xyz/2022/08/29/CQAMn.png"
+              width="400px"
+            />
+          </p>
+          <h4>
+            总的来看，我的大学生活总是伴随着“水逆”,时不时就要“渡劫”。从大一刚入学被隔离，在学习上走弯路没有取得理想成绩，被队友背叛，再到烧坏不知多少个单片机......
+            <br />
+            <br />好在，我没有放弃。
+            <br />
+            <br />在家没有放弃学习，虽然状态不尽如人意；没有放弃编程语言的学习；没有放弃阅读和运动，将自己置于自暴自弃的短视频漩涡之中；也尝试了做自媒体，流量平平。我深知，我的知识输入远远不足以支撑我的输出。这也是我重启阅读的契机之一。忙碌之余，我也没有忘记自己的爱好、信仰——绘画，依然支撑我，陪伴我，鼓舞我。
+            <br />
+            <br />不仅如此,我也做到了在考试复习周合理安排复习内容，将注意力集中于复习各科上。若是以前的我，则会制定过量的计划，对自己要求过高，期待过高，却又没有付出对应努力的能力，只会不停自我内耗，责怪自己，到头什么都没做好。而到了下一次考试，依然是自我精神内耗，不断恶性循环。
+            <br />
+            <br />和我的第二篇文章观点相似，思维很重要，没有符合自身实际的思想来指导自己的行动，将寸步难行，还会陷入“认为自己无能”且“有决心无力无行动”的恶性循环中。
+          </h4>
+        </div>
+      </div>
+      <!--右空盒子-->
+      <div style="height: 260px; width: 200px" class="flex1 column nobox"></div>
+    </div>
+
+    <!--下栏-->
+    <div
+      style="background-color: #f1f1f1; text-align: center; padding: 40px"
+      class="flex1"
+    ></div>
+  </body>
+</html>
