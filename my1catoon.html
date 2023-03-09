@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>绘画&动漫</title>
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        background-color: hsl(0, 0%, 100%);
+      }
+      /* * {
+        border: 1px solid black;
+      } */
+
+      .column {
+        flex-direction: column;
+      }
+      .flex {
+        display: flex;
+      }
+      .flex1 {
+        flex: 1;
+      }
+      .flex2 {
+        flex: 2;
+      }
+      .centerself {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .end {
+        align-self: flex-end;
+      }
+      .color{
+        background-color: rgb(238, 252, 255);
+      }
+      @media (max-width: 600px) {
+        .nobox {
+          display: none;
+        }
+        
+      }
+      /*去掉滚动条*/
+      .neiRong::-webkit-scrollbar {
+          display: none;
+        }
+    </style>
+  </head>
+  <body class="column flex neiRong">
+    <!--上栏-->
+    <div
+      style="background-color: #f1f1f1; text-align: center; padding: 40px"
+      class="flex1"
+    > <!--ectf-->
+      <img
+        src="img/ectf.jpg"
+        width="80px"
+        height="80px"
+      />
+    </div>
+    <!--内容-->
+    <div class="flex ">
+      <!--左空盒子-->
+      <div style="height: 260px; width: 200px" class="flex1 nobox"></div>
+      <!--内容栏-->
+      <div style="max-width: 700px; margin: 15px; overflow:auto" 
+           class="flex flex2 column color ">
+        <!--我与绘画-->
+        <h1 style="text-align: center">我与绘画</h1>
+        <p>
+          绘画的事得从幼儿园讲起......<br />我原本想去当个艺术生，考个美院，但爸妈不同意<br />不过我还是坚持了下来，嘻嘻
+        </p>
+        <p>虽然画的不咋滴，有待提高</p>
+        <p>
+          我曾学习过素描，主要是画人的五官神态，因此对于人体结构，学习不足,以至于只会画大头
+        </p>
+        <p>
+          我也发现了这个问题，就开启了人体结构动态学习之路。我参加了两个月的人体动态速写打卡，并做到全勤
+        </p>
+        <p>
+          目前来看，练习是有一定效果的。至少我知道，当人抬起胳膊时，肌肉是如何连接手臂和肩膀的；不同的姿势，人物的腰部、臀部和腿部肌肉又是如何变化的......
+        </p>
+        <p>
+          但我认为我现在还没有画高完成度作品的能力，我还有很多东西要学。比如，数码绘画需要Ps之类的绘画软件，但我只会一些简单的功能。并且，我只学过素描相关的知识，对于色彩、构图等等一窍不通
+        </p>
+        <p>先放个草图镇楼</p>
+        <p style="text-align: center">
+          <!--千一二-->
+          <img src="img/千一二.jpg" width="400px" />
+        </p>
+        <!--我与动漫-->
+        <h1 style="text-align: center">我与动漫</h1>
+        <p>说来有趣，如果不算上少儿动画以及家喻户晓的《名侦探柯南》，我的动漫入坑之作是MAPPA的《多罗罗》</p>
+        <p style="text-align: center">
+            <img
+              src="img/罗根.jpg"
+              width="200px"
+            />
+          </p>
+        <p>从那之后，看了很多动画。有老番，也有新番；有剧情老套的，也有新颖的；有作画崩坏的，也有动作戏画质天花板的...</p>
+        <p>刚开始的我，见一部看一部。剧情如何，作画是否用心，我通通看不出来。而且，容易上瘾，不肯停下，一定要看到最新一集。也可能是在逃避现实，那时我在读高中......</p>
+        <p>输入过量的剧情（信息），并且会受到主角们的思想、故事的影响，使我非常向往动漫中的世界——身世、使命、魔法...<del>中二病发作。</del>也会和角色们的情绪产生共鸣，也会因角色的死亡而难过。</p>
+        <p>有时候会陷入这样的幻想，想接下来的剧情、想如果自己在这个世界会发生什么；不知不间断地看了多久的番，我终于信息过载，麻木了。就这样，在沉迷和麻木中徘徊了几次，终于可以自我控制看番时间，不会被剧情束缚。而对于番剧的剧情，我也能有出自己的思考，不再像一开始别人说好就好，别人说烂就烂。</p>
+        
+        <p style="text-align: center">
+            <img
+              src="img/巧奇计程车.webp"
+              width="200px"
+            />
+        </p>
+       <br>
+        <p>说到漫画，就不得不提到我哥了。小时候只知道他喜欢漫画游戏，但并没有过多了解。知道他在我初三的时候把他看完的《非人哉》和《就喜欢你看不惯我又干不掉我的样子》送给我<del>(我是收废品的)</del>。我才真正开始接触漫画。
+        <p>接触了动漫，在冥冥之中，也帮助我在绘画之路走下去。要知道，对着一个人像石膏临摹是多么无聊，要画当然是要画自己想画的东西啦。而动画、漫画里的角色造型、场景、分镜也能激发我的灵感和创作欲望。</p>
+        <p style="text-align: center">
+            <img
+              src="img/巴扎黑.webp"
+              width="200px"
+            />
+          </p>
+      </p>
+        
+      </div>
+      <!--右空盒子-->
+      <div style="height: 260px; width: 200px" class="flex1 nobox"></div>
+    </div>
+    
+    <!--下栏-->
+    <div
+      style="background-color: #f1f1f1; text-align: center; padding: 40px"
+      class="flex1"
+    ></div>
+  </body>
+</html>
